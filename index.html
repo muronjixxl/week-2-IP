@@ -12,35 +12,34 @@
 
 <body>
     <div class="container">
-        <img src="images/akan.jpg" alt="ghanaian children" width="100%">
         <h1>Learn your Akan name today!</h1>
         <p>In many parts of Africa, a person's name is often determined by the day the were born and their gender.</p>
         <p>Enter your birthdate and your gender to find out your Akan name today!</p>
 
-        <form class="form-horizontal" action="/action_page.php">
+        <form class="form-horizontal">
             <div class="form-group">
                 <div class="col-sm-10"></div>
                 <label class="control-label col-sm-2" for="date">Date:</label>
-                <input type="text" id="date" name="date">
+                <input type="number" id="date" name="date">
                 <br><br>
                 <label class="control-label col-sm-2" for="month">Month:</label>
-                <input type="text" id="month" name="month">
+                <input type="number" id="month" name="month">
                 <br><br> 
                 <label class="control-label col-sm-2" for="year">Year:</label>
-                <input type="text" id="year" name="year">
+                <input type="number" id="year" name="year">
                 <br><br>
                 <label class="control-label col-sm-2" for="gender">Gender:</label>
                 <div class="col-sm-10">
-                    <select id="gender" name="gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                    </select>
+                  <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
                 </div>
             </div>
             <br><br>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <button onclick="getname()" type="button" class="btn btn-success">Submit</button>
+                    <button onclick="validation()" class="btn btn-success">Submit</button>
                     
                 </div>
             </div>
