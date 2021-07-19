@@ -19,13 +19,16 @@
 
         <form class="form-horizontal" action="/action_page.php">
             <div class="form-group">
-                <label class="control-label col-sm-2" for="birthdate">Birthdate:</label>
-                <div class="col-sm-10">
-                    <input type="date" id="birthdate" name="birthdate">
-                </div>
-            </div>
-            <br><br>
-            <div class="form-group">
+                <div class="col-sm-10"></div>
+                <label class="control-label col-sm-2" for="date">Date:</label>
+                <input type="text" id="date" name="date">
+                <br><br>
+                <label class="control-label col-sm-2" for="month">Month:</label>
+                <input type="text" id="month" name="month">
+                <br><br> 
+                <label class="control-label col-sm-2" for="year">Year:</label>
+                <input type="text" id="year" name="year">
+                <br><br>
                 <label class="control-label col-sm-2" for="gender">Gender:</label>
                 <div class="col-sm-10">
                     <select id="gender" name="gender">
@@ -37,7 +40,8 @@
             <br><br>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <button onclick="getday()" type="button" class="btn btn-success">Submit</button>
+                    <button onclick="getname()" type="button" class="btn btn-success">Submit</button>
+                    
                 </div>
             </div>
         </form>
