@@ -24,4 +24,4 @@ In case of any inquiries <a href="mailto: faith.muronji@student.moringaschool.co
 Copyright (c) {2021}
 
 ### Live link to GitHub
-[Click link](https://github.com/muronjixxl/learn-your-akan-name)
+[Click link](https://muronjixxl.github.io/week-2-IP/)
