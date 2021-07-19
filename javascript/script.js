@@ -4,24 +4,32 @@
     let gender = document.getElementById("gender").value;
 
 function validation() {
-    let date = parseInt(document.getElementById("date").value);
-    let month = parseInt(document.getElementById("month").value;)
-    let year = parseInt(document.getElementById("year").value);
+    let date = document.getElementById("date").value;
+    let month = document.getElementById("month").value;
+    let year = document.getElementById("year").value;
     if (date == "", month == "", year == "") {
+        console.log()
         alert("Invalid date")
-        return false;
     } else{getday();}
 }
 
 
+let Akanname;
+
+if(date > 31 || date <= 0 || month == 2 && date > 29){
+    alert("Enter valid date");
+}else if(month > 12){
+    alert("Enter valid month");
+}else if(year < 1900 || year > 2021){
+    alert("Enter valid year")
+}
+
+
+
 
 var getday=function() {
-    const birthdate1 = birthdate.split("-");
-console.log(birthdate1);
-let year = birthdate[2];
-let month = parseInt(birthdate1[0]);
-let date = parseInt(birthdate1[2]);
-let Akanname;
+
+
 
     let CC = parseInt(year.slice(0, 2));
     let YY = parseInt(year.slice(2, 4));
