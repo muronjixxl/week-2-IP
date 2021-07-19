@@ -20,7 +20,7 @@ There are no known bugs.
 ## Support and contact details
 In case of any inquiries <a href="mailto: faith.muronji@student.moringaschool.com">email us today</a>
 ### License
-[MIT](https://github.com/muronjixxl/my-portfolio/blob/main/license)
+[MIT](https://github.com/muronjixxl/week-2-IP/blob/master/license)
 Copyright (c) {2021}
 
 ### Live link to GitHub
