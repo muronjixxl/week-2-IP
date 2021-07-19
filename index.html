@@ -2,49 +2,49 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>learn your akan name</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>learn your akan name</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <div class="container">
-    <img src="images/akan.jpg" alt="ghanaian children" width="100%">
-    <h1>Learn your Akan name today!</h1>
-    <p>In many parts of Africa, a person's name is often determined by the day the were born and their gender.</p>
-    <p>Enter your birthdate and your gender to find out your Akan name today!</p>
+    <div class="container">
+        <img src="images/akan.jpg" alt="ghanaian children" width="100%">
+        <h1>Learn your Akan name today!</h1>
+        <p>In many parts of Africa, a person's name is often determined by the day the were born and their gender.</p>
+        <p>Enter your birthdate and your gender to find out your Akan name today!</p>
 
-    <form class="form-horizontal" action="/action_page.php">
-      <div class="form-group">
-        <label class="control-label col-sm-2" for="birthdate">Birthdate:</label>
-        <div class="col-sm-10">
-          <input type="date" id="birthdate" name="birthdate">
-        </div>
-      </div>
-      <br><br>
-      <div class="form-group">
-        <label class="control-label col-sm-2" for="gender">Gender:</label>
-        <div class="col-sm-10">
-          <select id="gender" name="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-          </select>
-        </div>
-      </div>
-      <br><br>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button onclick="validate()" type="button" class="btn btn-success">Submit</button>
-        </div>
-      </div>
-    </form>
-    <h2>Results:</h2>
-    <p id="para"></p>
-  </div>
-  <script src="javascript/script.js"></script>
+        <form class="form-horizontal" action="/action_page.php">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="birthdate">Birthdate:</label>
+                <div class="col-sm-10">
+                    <input type="date" id="birthdate" name="birthdate">
+                </div>
+            </div>
+            <br><br>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="gender">Gender:</label>
+                <div class="col-sm-10">
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+            <br><br>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button onclick="getday()" type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </form>
+        <h2>Results:</h2>
+        <p id="para"></p>
+    </div>
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>
