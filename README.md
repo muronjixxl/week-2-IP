@@ -7,9 +7,11 @@ This is a website that shows you your Akan name depending on your gender and dat
 * A HTML file
 * A CSS file
 * A javascript file 
+* GitHub to clone the repository
 
 ## BDD
-
+input: 15/03/2003
+output:"Your akan name is Ama."
 ## Known Bugs
 There are no known bugs.
 ## Technologies Used
