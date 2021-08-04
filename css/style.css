@@ -1,11 +1,33 @@
-body{
-    text-align:start;
+#enclosure{
+    display: flex;
+    align-items:center;
+    justify-content:space-around
+}
+
+#intro{
+    padding: 10px 10px;
+    background-color:white;
+    border-color: tan;
+    border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h1{
-    text-emphasis:inherit;
-    color: mediumseagreen;
+#content{
+    text-align: center;
 }
-h2{
-    color:mediumseagreen;
+
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+}
+#floatright{
+    float: right;
+}
+body{
+    background-image: url(../images/akan.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top:17%; 
 }
